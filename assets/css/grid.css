@@ -1,0 +1,25 @@
+#wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.grid-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.grid-header__item{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-header__item ul li img{
+    cursor: pointer;
+}
