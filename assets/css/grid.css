@@ -23,3 +23,17 @@
 .grid-header__item ul li img{
     cursor: pointer;
 }
+
+.grid-btns {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 32px;
+    margin-top: 16px;
+}
+
+.grid-row {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
